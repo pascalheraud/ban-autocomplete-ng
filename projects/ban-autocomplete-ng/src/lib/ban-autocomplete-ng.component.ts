@@ -36,7 +36,7 @@ export interface BanFeature {
           placeHolderLabel() ? placeHolderLabel : ('placeHolder' | translate)
         "
         (inputChanged)="onChangeSearch($event, false)"
-        [minQueryLength]="3"
+        [minQueryLength]="minCharacters()"
         [searchKeyword]="'label'"
         [itemTemplate]="itemTemplate() ? itemTemplate()! : defaultItemTemplate"
         [notFoundTemplate]="
@@ -62,7 +62,7 @@ export interface BanFeature {
 export class BanAutocompleteNgComponent {
   data: BanFeature[] = [];
   maxResults?: number;
-
+  minCharacters = input<number>(3);
   notFoundTemplate = input<TemplateRef<any>>();
   itemTemplate = input<TemplateRef<BanFeature>>();
   placeHolderLabel = input<string>();
@@ -79,7 +79,6 @@ export class BanAutocompleteNgComponent {
   }
 
   onChangeSearch(query: string, updateModel: boolean) {
-    this.data = [];
     if (!query) {
       return;
     }

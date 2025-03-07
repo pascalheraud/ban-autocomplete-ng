@@ -1,6 +1,11 @@
 {
   "name": "ban-autocomplete-ng",
-  "version": "0.0.1",
+  "types": "public-api.d.ts",
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pascalheraud/ban-autocomplete-ng"
+  },
   "peerDependencies": {
     "@angular/common": "^19.1.0",
     "@angular/core": "^19.1.0"

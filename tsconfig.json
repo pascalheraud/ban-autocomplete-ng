@@ -6,6 +6,8 @@
         "./dist/ban-autocomplete-ng"
       ]
     },
+    "declaration": true,
+    "declarationMap": true,
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,

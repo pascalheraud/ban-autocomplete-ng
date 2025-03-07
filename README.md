@@ -1,2 +1,3 @@
-# ban-autocomplete-ng
-An Angular autocomplete component connected to french Ban autocomplete https://adresse.data.gouv.fr/
+# BanAutocompleteNg
+
+A simple Angular component to provide an autocomplete field for French ban ( https://api-adresse.data.gouv.fr/search/?q=Grenoble&limit=7 )

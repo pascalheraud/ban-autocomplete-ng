@@ -1,6 +1,10 @@
 {
   "name": "ban-autocomplete-ng",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pascalheraud/ban-autocomplete-ng"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +14,6 @@
     "test:watch": "ng test --watch",
     "coverage": "vitest --coverage"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^19.1.0",
     "@angular/common": "^19.1.0",

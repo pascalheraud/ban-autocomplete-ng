@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ban-autocomplete-ng": "file:../../dist/ban-autocomplete-ng"
+  }
+}

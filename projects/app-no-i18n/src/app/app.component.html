@@ -1,0 +1,34 @@
+<main class="main">
+  <div class="content">
+    Test application not using i18n : <br/>
+    <br/>
+    <ban-autocomplete-ng
+      [maxResults]="7"
+      [itemTemplate]="itemTemplate"
+      [minCharacters]="4"
+      [maxResults]="4"
+      [(selection)]="selection"
+      [placeHolderLabel]="'Adresse du lieu'"
+      [notFoundTemplate]="notFoundTemplate"
+    ></ban-autocomplete-ng>
+  </div>
+  <ng-template #itemTemplate let-untypedItem>
+    @let item = identity(untypedItem);
+    <div class="item">
+      <div>{{ item.properties?.postcode }} {{ item.properties?.city }}</div>
+    </div>
+  </ng-template>
+  <ng-template #notFoundTemplate let-untypedItem>
+    @let item = identity(untypedItem); Votre recherche n'aboutit à aucune adresse
+    {{ item }}
+  </ng-template>
+  @if (selection()) { Adresse sélectionnée :
+  {{ selection()!.properties!.city }}
+  {{ selection()!.properties!.postcode }}
+  <br />
+  <br />
+  <br />
+  <br />
+  }
+</main>
+<router-outlet />

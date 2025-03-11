@@ -17,19 +17,6 @@ global.fetch = fetch;
 function createFetchResponse(data: any) {
   return { json: () => new Promise((resolve) => resolve(data)) };
 }
-// describe('Test minimal avec couverture', () => {
-//   beforeEach(() => {
-//     TestBed.initTestEnvironment(BrowserDynamicTestingModule, platformBrowserDynamicTesting());
-//   });
-
-//   it('should create the component', () => {
-
-//     const fixture = TestBed.createComponent(BanAutocompleteNgComponent);
-//     const component = fixture.componentInstance;
-//     expect(component).toBeTruthy();
-//   });
-// });
-
 describe('BanAutocompleteNgComponent', () => {
   let component: BanAutocompleteNgComponent;
   let fixture: ComponentFixture<BanAutocompleteNgComponent>;

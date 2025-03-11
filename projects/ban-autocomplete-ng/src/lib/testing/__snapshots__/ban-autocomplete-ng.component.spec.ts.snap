@@ -1,8 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`BanAutocompleteNgComponent > should create > clicked 1`] = `
-"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="[object Object],[object Object" ng-reflect-placeholder="placeHolder" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
- "><div aria-owns="suggestions suggestions-history" class="autocomplete-container" ng-reflect-ng-class="[object Object]" aria-expanded="false"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="placeHolder" ng-reflect-model="Grenoble" aria-label="placeHolder" class="ng-untouched ng-valid ng-dirty"><div class="x"><i aria-label="Close" class="material-icons">close</i></div><!--bindings={
+"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="[object Object],[object Object" ng-reflect-placeholder="Saisisez une adresse" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
+ "><div aria-owns="suggestions suggestions-history" class="autocomplete-container" ng-reflect-ng-class="[object Object]" aria-expanded="false"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="Saisisez une adresse" ng-reflect-model="Grenoble" aria-label="Saisisez une adresse" class="ng-untouched ng-valid ng-dirty"><div class="x"><i aria-label="Close" class="material-icons">close</i></div><!--bindings={
   "ng-reflect-ng-if": "true"
 }--><!--bindings={}--></div><div id="suggestions" role="listbox" class="suggestions-container is-visible" ng-reflect-ng-class="[object Object]"><!--bindings={
   "ng-reflect-ng-if": "false"
@@ -20,8 +20,8 @@ exports[`BanAutocompleteNgComponent > should create > clicked 1`] = `
 `;
 
 exports[`BanAutocompleteNgComponent > should create > empty 1`] = `
-"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="" ng-reflect-placeholder="placeHolder" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
- "><div aria-owns="suggestions suggestions-history" class="autocomplete-container" ng-reflect-ng-class="[object Object]" aria-expanded="false"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="placeHolder" ng-reflect-model="" aria-label="placeHolder" class="ng-untouched ng-pristine ng-valid"><!--bindings={
+"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="" ng-reflect-placeholder="Saisisez une adresse" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
+ "><div aria-owns="suggestions suggestions-history" class="autocomplete-container" ng-reflect-ng-class="[object Object]" aria-expanded="false"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="Saisisez une adresse" ng-reflect-model="" aria-label="Saisisez une adresse" class="ng-untouched ng-pristine ng-valid"><!--bindings={
   "ng-reflect-ng-if": ""
 }--><!--bindings={}--></div><div id="suggestions" role="listbox" class="suggestions-container is-hidden" ng-reflect-ng-class="[object Object]"><!--bindings={
   "ng-reflect-ng-if": "false"
@@ -39,8 +39,8 @@ exports[`BanAutocompleteNgComponent > should create > empty 1`] = `
 `;
 
 exports[`BanAutocompleteNgComponent > should create > suggests 1`] = `
-"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="[object Object],[object Object" ng-reflect-placeholder="placeHolder" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
- "><div aria-owns="suggestions suggestions-history" class="autocomplete-container active" ng-reflect-ng-class="[object Object]" aria-expanded="true"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="placeHolder" ng-reflect-model="Gre" aria-label="placeHolder" class="ng-untouched ng-valid ng-dirty"><div class="x"><i aria-label="Close" class="material-icons">close</i></div><!--bindings={
+"<div id="root0" ng-version="19.2.1"><div class="ng-autocomplete"><ng-autocomplete class="ng-autocomplete" ng-reflect-data="[object Object],[object Object" ng-reflect-placeholder="Saisisez une adresse" ng-reflect-min-query-length="3" ng-reflect-search-keyword="label" ng-reflect-item-template="[object Object]" ng-reflect-not-found-template="[object Object]" ng-reflect-custom-filter="customFilter(items, query) {
+ "><div aria-owns="suggestions suggestions-history" class="autocomplete-container active" ng-reflect-ng-class="[object Object]" aria-expanded="true"><div class="input-container"><input type="text" aria-autocomplete="list" role="combobox" autocomplete="off" placeholder="Saisisez une adresse" ng-reflect-model="Gre" aria-label="Saisisez une adresse" class="ng-untouched ng-valid ng-dirty"><div class="x"><i aria-label="Close" class="material-icons">close</i></div><!--bindings={
   "ng-reflect-ng-if": "true"
 }--><!--bindings={}--></div><div id="suggestions" role="listbox" class="suggestions-container is-visible" ng-reflect-ng-class="[object Object]"><!--bindings={
   "ng-reflect-ng-if": ""

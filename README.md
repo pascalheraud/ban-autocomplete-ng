@@ -103,9 +103,6 @@ You can use
 See example applications in projects/app/ and projects/app-no-i18n folders on github
 
 ## Reference
-  placeHolderLabel = input<string>();
-  notFoundLabel = input<string>();
-
 | Attribute | Description |
 | ----------| ------------|
 | [(selection)] | optional model for getting the selection|

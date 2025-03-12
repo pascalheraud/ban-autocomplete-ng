@@ -114,4 +114,4 @@ See example applications in projects/app/ and projects/app-no-i18n folders on gi
 | [notFoundTemplate] | an optional id string to a ng-template that will be used to render the "not found"|
 | [itemTemplate] | an optional id string to a ng-template that will be used to render each result|
 | [placeHolderLabel] | an optional string that will be used to render the place holder. If not found, translation is used if available. If no translation available, a defaut french text is provided|
-| [notFoundLabel] an optional string that will be used to render the place holder. If not found, translation is used if available. If no translation available, a defaut french text is provided|
+| [notFoundLabel] | an optional string that will be used to render the place holder. If not found, translation is used if available. If no translation available, a defaut french text is provided|

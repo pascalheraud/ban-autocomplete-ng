@@ -56,24 +56,24 @@ bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
 ```
 
-Then change main app.config.ts to export the module :
+Then change app.config.ts to add BanAutocompleteNGTranslateProvider to providers :
 
 ```typescript
-import { Component, model } from "@angular/core";
-import { RouterOutlet } from "@angular/router";
-import { BanAutocompleteNgComponent, BanFeature, identityFunction } from "ban-autocomplete-ng";
+import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import { provideRouter } from '@angular/router';
 
-@Component({
-  selector: "app-root",
-  imports: [RouterOutlet, BanAutocompleteNgComponent],
-  templateUrl: "./app.component.html",
-  styleUrl: "./app.component.css",
-})
-export class AppComponent {
-  selection = model<BanFeature | undefined>();
-  title = "app";
-  identity = identityFunction;
-}
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { routes } from './app.routes';
+import { BanAutocompleteNGTranslateProvider } from 'ban-autocomplete-ng';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideRouter(routes),
+    provideZoneChangeDetection({ eventCoalescing: true }),
+    provideAnimationsAsync(),
+    BanAutocompleteNGTranslateProvider,
+  ],
+};
 ```
 
 ## Customizing templates
